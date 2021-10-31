@@ -1,0 +1,72 @@
+[gd_scene format=2]
+
+[node name="MainScreen" type="Node2D"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="BackgroundRect" type="ColorRect" parent="CanvasLayer"]
+anchor_right = 0.997
+anchor_bottom = 0.998
+margin_left = 1.0
+margin_right = 1.07196
+margin_bottom = 0.200012
+color = Color( 0.533333, 0.380392, 0.054902, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ConnectButton" type="Button" parent="CanvasLayer"]
+anchor_left = 0.392
+anchor_top = 0.528
+anchor_right = 0.569
+anchor_bottom = 0.698
+margin_left = -13.408
+margin_top = -2.79999
+margin_right = -12.656
+margin_bottom = -2.80002
+text = "Connect"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PortText" type="TextEdit" parent="CanvasLayer"]
+margin_left = 494.0
+margin_top = 255.0
+margin_right = 638.0
+margin_bottom = 285.0
+text = "8686"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="IpText" type="TextEdit" parent="CanvasLayer"]
+anchor_left = 0.311
+anchor_top = 0.425
+anchor_right = 0.451
+anchor_bottom = 0.475
+margin_left = -0.46402
+margin_right = 0.175964
+text = "127.0.0.1"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="IpAddressLabel" type="Label" parent="CanvasLayer"]
+margin_left = 285.0
+margin_top = 235.0
+margin_right = 414.0
+margin_bottom = 261.0
+text = "IP Address:"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PortLabel" type="Label" parent="CanvasLayer"]
+margin_left = 485.0
+margin_top = 233.0
+margin_right = 624.0
+margin_bottom = 260.0
+text = "Port:"
+__meta__ = {
+"_edit_use_anchors_": false
+}
